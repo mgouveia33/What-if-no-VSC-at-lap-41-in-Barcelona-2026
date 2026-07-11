@@ -1,0 +1,1 @@
+# What-if-no-VSC-at-lap-41-in-Barcelona-2026
