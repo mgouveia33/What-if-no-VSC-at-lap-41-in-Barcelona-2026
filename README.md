@@ -10,7 +10,7 @@ During Lap $41$, a Virtual Safety car caused by Alonso's malfunctioning car was 
 
 Ferrari took the opportunity and secured Hamilton's first win. However, a lot of fans probably asked themselves the following question: 
 
-***Was the VSC the main cause for the win? Or did it actually just further consolidated it?***
+### Was the VSC the main cause for the win? Or did it actually just further consolidated it?
 
 In this mini project, we to attempt to answer this question by supposing that no VSC happened between Laps $41$ and $42$. We use Python's Fast F1 API [source](https://docs.fastf1.dev/) to acess Barcelona 2026 data in order to predict Hamilton and Russell laptimes under this hyphotetical situation.
 
@@ -41,7 +41,7 @@ Using the simulated lap times and pit stop, we compute the total race time and t
 
 We did not pursue other values of $n$. We strongly believe that for $n>45$, the feasibility of lap time prediction using linear regression would be extrapolated, since Hamilton's medium tyre age would certainly be out of the range in which its degradation can be approximated by a linear model. 
 
-From the plot, it is suggested that Hamilton would close the gap between Lap $54$ and $56$, with about $10$ laps remaining for the end of the race. The projected gap for the end of the race with no VSC on Lap 41 ranges between $7.5-9.5$ seconds. The actual VSC made the win comfortable, but the data suggests Hamilton had the pace to win without it.
+#### From the plot, it is suggested that Hamilton would close the gap between Lap $54$ and $56$, with about $10$ laps remaining for the end of the race. The projected gap for the end of the race with no VSC on Lap 41 ranges between $7.5-9.5$ seconds. The actual VSC made the win comfortable, but the data suggests Hamilton had the pace to win without it.
 
 The proposed analysis makes a choice of a single degradation tyre coefficient and base lap time for each stint coming from the Linear regression. These numbers are an estimate made from a limited number of laps and carry on uncertainties with them. As a result, every single simulated gap curve therefore hides how sensitive the conclusion is to inputs that are only approximately known.
 
