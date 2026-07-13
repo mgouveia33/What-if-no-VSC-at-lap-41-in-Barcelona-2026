@@ -34,7 +34,8 @@ For Laps $63, 64, 65,$  we ignore the simulated lap times for both drivers and u
 
 Using the simulated lap times and pit stop, we compute the total race time and the gap between Russell and Hamilton for each value of $n$. We provide a figure comparing the gap for  $n=40,41,42,43,44,45$ with the actual gap from the race:
 
-<img width="1250" height="838" alt="image" src="https://github.com/user-attachments/assets/5908e169-15a4-47e7-8e85-1748a3588c12" />
+<img width="1250" height="853" alt="image" src="https://github.com/user-attachments/assets/2640bbb0-e0cf-4057-8f1b-c439365a2c73" />
+
 
 
 
